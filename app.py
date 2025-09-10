@@ -105,7 +105,7 @@ st.set_page_config(page_title="SQL Query Generator", page_icon="♾️")
 # display the logo and header
 if os.path.exists("1_nzVjqDcMKJPYudZvcc164g.jpg"):
     st.image("1_nzVjqDcMKJPYudZvcc164g.jpg", width=200)
-st.markdown("♾️ Your AI powered SQL Assistant")
+st.header("♾️ Your AI powered SQL Assistant")
 
 # Data can be a dictionary, list, or DataFrame
 data = {
@@ -140,7 +140,7 @@ if submit:
         result=read_sql_query(clean_response, "STUDENT.db")
         st.subheader("The response is")
         for row in result:
-            st.header(row)
+            st.write(row)
     except Exception as e:
         st.error(f"Error executing query: {e}")
         st.code(clean_response)
