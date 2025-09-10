@@ -1,8 +1,4 @@
-# AgenticAI-SQL-Querier
-
-````markdown
-
-# AgenticAI 🎓🤖
+# AgenticAI-SQL-Querier 🎓🤖
 
 AgenticAI is a Streamlit-based AI-powered assistant that connects to a SQLite database and answers natural language queries using Google Gemini API.  
 It enables seamless interaction with structured data — ask questions, get answers, no SQL knowledge required.
@@ -90,4 +86,3 @@ Pull requests are welcome!
 For major changes, open an issue first to discuss what you’d like to improve.
 
 ```
-````
