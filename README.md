@@ -24,7 +24,7 @@ It enables seamless interaction with structured data — ask questions, get answ
    ```bash
    git clone https://github.com/YOUR_USERNAME/AgenticAI.git
    cd AgenticAI
-````
+   ```
 
 2. Create a virtual environment:
 
@@ -89,10 +89,5 @@ AgenticAI/
 Pull requests are welcome!
 For major changes, open an issue first to discuss what you’d like to improve.
 
----
-
-## ✨ Credits
-
-Built with ❤️ by Yuva, powered by **Google Gemini** & **Streamlit**.
-
 ```
+````
