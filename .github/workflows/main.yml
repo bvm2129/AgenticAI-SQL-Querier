@@ -1,0 +1,13 @@
+-name: My_first_workflow
+  on:
+    workflow_dispatch:
+      jobs:
+        runs-on: ubuntu_latest
+
+- name: Checkout_to_the_repo
+  uses: GuillaumeFalourd/clone-github-repo-action@v2.1
+  with:
+    depth: 1
+    branch: 'main'
+    owner: 'bvm2129'
+    repository: 'AgenticAI-SQL-Querier'
